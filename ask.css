@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(255,255,255)80%,rgba(0,113,109)25%);
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height:70px;
+
+}
+
+.logo{
+    color:#ffffff;
+    font-size:80px;
+    font-family:arial;
+    text-shadow: black 2px 2px;
+    padding-left:44px;
+    float:left;
+    padding-top:30px;
+}
+.navbar{
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.border{
+    width: 1000px;
+    height:10px;
+    background:rgba(0,113,109);
+    margin:40px auto;
+}
+.contact-form{
+    max-width:1500px;
+    margin:auto;
+    padding-top: 100px;
+    padding-left: 10px;
+    overflow:hidden;
+}
+.contact-form-text{
+    
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin:16px 0;
+    border:0;
+    background:#111;
+    padding:20px 40px;
+    outline:none;
+    color:#ddd;
+    transition: 0.5s;
+}

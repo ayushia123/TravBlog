@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background:url(beach.jpg);
+    background-position: center;
+    background-size:cover;
+    height:109vh;
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height:70px;
+
+}
+
+.logo{
+    color:#ffffff;
+    font-size:85px;
+    font-family:arial;
+    text-shadow: black 2px 2px;
+    padding-left:223px;
+    float:left;
+    padding-top:230px;
+}
+.content{
+    width:535px;
+    height:227;
+    font-size: 48px;
+    text-shadow: gray 2px 2px;
+    padding-top: 360px;
+    padding-left: 116px;
+    color:white;
+    font-family: arial;
+    
+}
+.form{
+    width:250px;
+    height:280px;
+    position:absolute;
+    top:237px;
+    left:870px;
+    background:linear-gradient(to top,rgba(255,255,255)50%,rgb(255,255,255)50%);
+    border-radius:10px;
+    padding:25px;
+
+   
+}
+.btn{
+    width:160px;
+    height:40px;
+    background:#f5b40d;
+    border:none;
+    margin-top: 15px;
+    margin-bottom:10px;
+    margin-left:50px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.btn{
+    outline:none;
+}
+
+.form input{
+    width:240px;
+    height: 35px;
+    background:transparent;
+    border-bottom:1px solid #f5b40d;
+    border-top:1px solid #f5b40d;
+    border-right:1px solid #f5b40d;
+    border-left:1px solid #f5b40d;
+    color:#ffffff;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:30px;
+    margin-left: 7px;
+    font-family:sans-serif;
+}
